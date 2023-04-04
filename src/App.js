@@ -7,12 +7,14 @@ import UseEffectHook from "./Hooks/UseEffect";
 import UseRefHook from "./Hooks/UseRef";
 import UseLayoutEffectHook from "./Hooks/UseLayoutEffect";
 import ImpertiaveHandleHook from "./Hooks/ImperativeHandle";
-import UseContextHook from "./Hooks/UseContext"
+import UseContextHook from "./Hooks/UseContext";
+import UseMemoHook from "./Hooks/UseMemo";
+import UseCallbackHook from "./Hooks/UseCallback";
 
 function App() {
   return (
     <div className="App">
-      <UseContextHook/>
+      <UseCallbackHook/>
     </div>
   );
 }
